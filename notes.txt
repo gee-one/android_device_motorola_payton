@@ -4,5 +4,6 @@ clean up/add to proprietary-files.txt
 sort out BoardConfig.mk
 sort out device.mk
 sort out kernel defconfigs
+sort out init
 ???
 profit
