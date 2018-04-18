@@ -1,0 +1,21 @@
+on init
+
+   # Change ownership for Dynamic-CABC feature
+   chown system system /sys/class/graphics/fb0/cabc
+   # Change ownership for for HBM feature
+   chown system system /sys/class/graphics/fb0/hbm
+
+on boot
+
+   # Change the ownership of display TE files for tcmds
+   chown root mot_tcmd /sys/class/graphics/fb0/te_test
+   chown root mot_tcmd /sys/class/graphics/fb0/te_enable
+   chown root mot_tcmd /sys/class/graphics/fb0/frame_counter
+   # Wifi firmware reload path
+   chown wifi wifi /sys/module/wlan/parameters/fwpath
+
+on property:ro.bootmode=factory
+    write /sys/class/leds/charging/brightness 255
+
+on property:ro.bootmode=mot-factory
+    write /sys/class/leds/charging/brightness 255

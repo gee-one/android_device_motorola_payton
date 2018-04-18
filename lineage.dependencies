@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998"
+  }
+]
