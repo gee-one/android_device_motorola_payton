@@ -159,6 +159,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/payton
 TARGET_KERNEL_CONFIG := payton_defconfig
 TARGET_KERNEL_ARCH := arm64
 #TARGET_KERNEL_CLANG_COMPILE := true
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
