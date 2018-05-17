@@ -143,10 +143,10 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc170000
-BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3
+BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1 androidboot.configfs=true
-BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a800000.dwc3 androidboot.hab.csv=1
+BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a800000.dwc3 androidboot.hab.csv=2
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=payton androidboot.hab.cid=50
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 #BOARD_KERNEL_CMDLINE += buildvariant=user veritykeyid=id:b640f6ee9102b88daa3450b13ef25fc9eb143d63
