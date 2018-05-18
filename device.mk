@@ -177,23 +177,23 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 #    ims-ext-common
 
 # Init
-#init.environ.rc
-#init.rc
-#init.recovery.qcom.rc
-#init.usb.configfs.rc
-#init.usb.rc
-#init.zygote32.rc
-#init.zygote64_32.rc
-#ueventd.rc
+init.environ.rc
+init.rc
+init.recovery.qcom.rc
+init.usb.configfs.rc
+init.usb.rc
+init.zygote32.rc
+init.zygote64_32.rc
+ueventd.rc
 
 PRODUCT_COPY_FILES += \
-#    device/motorola/payton/rootdir/root/init.environ.rc:root/init.environ.rc \
-#    device/motorola/payton/rootdir/root/init.rc:root/init.rc \
-#    device/motorola/payton/rootdir/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
-#    device/motorola/payton/rootdir/root/init.usb.configfs.rc:root/init.usb.configfs.rc \
-#    device/motorola/payton/rootdir/root/init.usb.rc:root/init.usb.rc \
-#    device/motorola/payton/rootdir/root/init.zygote32.rc:root/init.zygote32.rc \
-#    device/motorola/payton/rootdir/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
+    device/motorola/payton/rootdir/root/init.environ.rc:root/init.environ.rc \
+    device/motorola/payton/rootdir/root/init.rc:root/init.rc \
+    device/motorola/payton/rootdir/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+    device/motorola/payton/rootdir/root/init.usb.configfs.rc:root/init.usb.configfs.rc \
+    device/motorola/payton/rootdir/root/init.usb.rc:root/init.usb.rc \
+    device/motorola/payton/rootdir/root/init.zygote32.rc:root/init.zygote32.rc \
+    device/motorola/payton/rootdir/root/init.zygote64_32.rc:root/init.zygote64_32.rc \
     device/motorola/payton/rootdir/root/ueventd.rc:root/ueventd.rc
 
 PRODUCT_PACKAGES += \
@@ -363,11 +363,11 @@ PRODUCT_PACKAGES += \
 #    rcs_service_api.xml
 
 # Recovery
-#PRODUCT_COPY_FILES += \
-#    device/motorola/payton/recovery/root/init.recovery.payton.rc:root/init.recovery.payton.rc \
-#    device/motorola/payton/recovery/root/init.recovery.payton.usb.rc:root/init.recovery.payton.usb.rc \
-#    device/motorola/payton/recovery/root/init.recovery.usb.configfs.rc:root/init.recovery.usb.configfs.rc \
-#    device/motorola/payton/recovery/root/init.recovery.usb.rc:root/init.recovery.usb.rc
+PRODUCT_COPY_FILES += \
+    device/motorola/payton/recovery/root/init.recovery.payton.rc:root/init.recovery.payton.rc \
+    device/motorola/payton/recovery/root/init.recovery.payton.usb.rc:root/init.recovery.payton.usb.rc \
+    device/motorola/payton/recovery/root/init.recovery.usb.configfs.rc:root/init.recovery.usb.configfs.rc \
+    device/motorola/payton/recovery/root/init.recovery.usb.rc:root/init.recovery.usb.rc
 
 # RenderScript HAL
 #PRODUCT_PACKAGES += \
