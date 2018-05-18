@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_payton-userdebug
+add_lunch_combo lineage_payton-eng
