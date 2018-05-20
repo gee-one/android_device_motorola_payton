@@ -217,8 +217,9 @@ PRODUCT_PACKAGES += \
     liboffloadhal
 
 # IPv6 tethering
-PRODUCT_PACKAGES += \
-    ebtables \
+#breaks the compile - comment for now. check later  - munchy May 20 2018. 1424hrs EST
+#PRODUCT_PACKAGES += \
+#    ebtables \
 #    ethertypes
 
 # IRQ
