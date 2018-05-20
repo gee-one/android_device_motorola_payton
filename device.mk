@@ -320,17 +320,18 @@ PRODUCT_COPY_FILES += \
 #    device/motorola/payton/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
 # OMX
+#disable all except OmxCore - breaks compile and picking stuff from msm8998 - munchy  - May 20 , 2018 1428 EST
 PRODUCT_PACKAGES += \
-    libc2dcolorconvert \
-    libextmedia_jni \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
+#    libc2dcolorconvert \
+#    libextmedia_jni \
+#    libOmxAacEnc \
+#    libOmxAmrEnc \
+    libOmxCore 
+#    libOmxEvrcEnc \
+#    libOmxQcelp13Enc \
+#    libOmxVdec \
+#    libOmxVenc \
+#    libstagefrighthw
 
 # Power
 PRODUCT_PACKAGES += \
