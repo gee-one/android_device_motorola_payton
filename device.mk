@@ -177,6 +177,15 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 #    ims-ext-common
 
 # Init
+#init.environ.rc
+#init.rc
+#init.recovery.qcom.rc
+#init.usb.configfs.rc
+#init.usb.rc
+#init.zygote32.rc
+#init.zygote64_32.rc
+#ueventd.rc
+
 PRODUCT_COPY_FILES += \
     device/motorola/payton/rootdir/root/init.environ.rc:root/init.environ.rc \
     device/motorola/payton/rootdir/root/init.rc:root/init.rc \
