@@ -363,8 +363,9 @@ PRODUCT_PACKAGES += \
 #    rcs_service_api.xml
 
 # Recovery
-#PRODUCT_COPY_FILES += \
-#    device/motorola/payton/recovery/root/init.recovery.payton.rc:root/init.recovery.payton.rc \
+PRODUCT_COPY_FILES += \
+    device/motorola/payton/recovery/root/init.recovery.payton.rc:root/init.recovery.payton.rc \
+    device/motorola/payton/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 #    device/motorola/payton/recovery/root/init.recovery.payton.usb.rc:root/init.recovery.payton.usb.rc \
 #    device/motorola/payton/recovery/root/init.recovery.usb.configfs.rc:root/init.recovery.usb.configfs.rc \
 #    device/motorola/payton/recovery/root/init.recovery.usb.rc:root/init.recovery.usb.rc
