@@ -17,4 +17,3 @@ Display | 1080 x 1920 pixels, 5.2" IPS LCD
 Rear Camera  | Dual 12 MP
 Front Camera | 16 MP
 
-![Motorola X4](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-x4-2.jpg "Motorola X4")

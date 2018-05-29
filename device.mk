@@ -332,7 +332,7 @@ PRODUCT_PACKAGES += \
 #    libextmedia_jni \
 #    libOmxAacEnc \
 #    libOmxAmrEnc \
-    libOmxCore \
+    libOmxCore
 #    libOmxEvrcEnc \
 #    libOmxQcelp13Enc \
 #    libOmxVdec \
