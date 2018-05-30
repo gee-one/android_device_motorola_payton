@@ -2,5 +2,13 @@
   {
     "repository": "android_kernel_motorola_payton",
     "target_path": "kernel/motorola/payton"
+  },
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  },
+  {
+    "repository": "android_external_bson",
+    "target_path": "external/bson"
   }
 ]
