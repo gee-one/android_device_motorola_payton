@@ -1,5 +1,4 @@
-#import /init.recovery.${ro.hardware}.rc
-import /init.recovery.qcom.rc
+import /init.recovery.${ro.hardware}.rc
 
 on early-init
     # Set the security context of /postinstall if present.
