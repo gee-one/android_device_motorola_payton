@@ -1,24 +1,39 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
+#init.environ.rc
+#init.usb.rc
+#init.${ro.hardware}.rc
+#vendor/etc/init/hw/init.${ro.hardware}.rc
+#init.usb.configfs.rc
+#init.${ro.zygote}.rc
+
+#vendor/etc/init/hw/init.target.rc
+#vendor/etc/init/hw/init.mmi.rc
+#vendor/etc/init/hw/init.mmi.overlay.rc
+#vendor/etc/init/hw/init.mmi.chipset.rc
+#vendor/etc/init/hw/init.mmi.usb.rc
+#vendor/etc/init/hw/init.mmi.debug.rc
+#vendor/etc/init/hw/init.mmi.volte.rc
+#vendor/etc/init/hw/init.mmi.diag_mdlog.rc
+#vendor/etc/init/hw/init.oem.rc
+#vendor/etc/init/hw/init.mmi.common.rc
+#vendor/etc/init/hw/init.mmi.nonab.rc
+#vendor/etc/init/hw/init.mmi.sensor.rc
+#vendor/etc/init/hw/init.mmi.hab.rc
+#vendor/etc/init/hw/init.mods.rc
+#vendor/etc/init/hw/init.qcom.factory.rc
+#vendor/etc/init/hw/init.qcom.test.rc
+
+
+
+
 # Device init scripts
 #fstab.qcom
 
-#vendor/etc/init/hw
-#init.mmi.chipset.rc
-#init.mmi.common.rc
-#init.mmi.debug.rc
-#init.mmi.diag_mdlog.rc
 #init.mmi.diag.rc
-#init.mmi.hab.rc
-#init.mmi.overlay.rc
-#init.mmi.rc
-#init.mmi.usb.rc
-#init.mmi.volte.rc
-#init.qcom.factory.rc
 #init.qcom.rc
 #init.recovery.qcom.rc
-#init.target.rc
 
 #init.qcom.early_boot.sh
 #init.qcom.efs.sync.sh

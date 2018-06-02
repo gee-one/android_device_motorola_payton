@@ -6,10 +6,10 @@
 
 import /init.environ.rc
 import /init.usb.rc
-import /init.qcom.rc
-import /vendor/etc/init/hw/init.qcom.rc
+import /init.${ro.hardware}.rc
+import /vendor/etc/init/hw/init.${ro.hardware}.rc
 import /init.usb.configfs.rc
-import /init.zygote64_32.rc
+import /init.${ro.zygote}.rc
 
 on early-init
     # Set init and its forked children's oom_adj.
